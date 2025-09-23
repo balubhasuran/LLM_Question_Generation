@@ -1,7 +1,7 @@
 I am a 69 year old white male.
 
 The following are my latest lab test results:
-Date, Lab Test Name, Unit, Test Value, Normal Range, Abnormal Indication (if applicable)
+Date, Lab Test Name, Unit, Test Value, Normal Range
 XXXX-XX-XX, Sodium, mmol/L, 136.0
 XXXX-XX-XX, Bilirubin, mg/dL, 0.3
 
