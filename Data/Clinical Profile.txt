@@ -1,1 +1,19 @@
+I am a 69 year old white male.
+
+The following are my latest lab test results:
+Date, Lab Test Name, Unit, Test Value, Normal Range, Abnormal Indication (if applicable)
+XXXX-XX-XX, Sodium, mmol/L, 136.0
+XXXX-XX-XX, Bilirubin, mg/dL, 0.3
+
+The following medications were recently used:
+Date, Drug_CUI, Medication
+XXXX-XX-XX, 1651275, Stiolto Respimat 2.5/2.5 olodaterol 2.5 MCG 
+XXXX-XX-XX, 351249, escitalopram oxalate 5 MG Oral Tablet
+
+The following diagnoses were listed into my chart:
+Date, ICD Code, Diagnosis
+XXXX-XX-XX, C32.1, Malignant neoplasm: Supraglottis
+XXXX-XX-XX, Z92.3, Personal history of irradiation
+XXXX-XX-XX, R05, Cough
+
 
