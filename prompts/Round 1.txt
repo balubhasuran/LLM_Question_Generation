@@ -1,1 +1,15 @@
+What questions should I ask my physician based on the following clinical data to ensure my treatment plan is holistic, addresses all underlying conditions, and adapts to changes in my health status? 
+Please make sure to ask four questions for each lab test, considering the lab test values with reference ranges. 
+Only provide the questions to the physician.
+Patient's Profile and Clinical Data:
+{
+[insert clinical profile]
+}
+ Always adhere to the following instructions.
+1. List the questions in order of priority, ranking them based on medical urgency.
+2. Focus questions on actions the patient should take.
+3. Give higher relevance to health-related questions.
+4. Rank the questions according to the urgency of the existing conditions. 
+5. Generate questions that can be communicated to the physician within 15 minutes.
+6. If the same lab test appears twice, generate four questions for both instances using the corresponding test values. 
 
