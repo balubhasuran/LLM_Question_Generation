@@ -1,1 +1,22 @@
+Generate a list of 20 precise clinical questions for a patient to ask their clinician regarding abnormal lab test results. Follow these guidelines:
+Guidelines:
+Order of Questions: Rank questions by clinical urgency, starting with life-threatening concerns such as kidney function, glucose levels, and cardiovascular risks.
+Highlight Abnormal Values: Explicitly mention which lab test values are abnormal and explain their significance in the question.
+Medication and Disease Context: Align each question with the patient's medical history (e.g., diabetes, hypertension) and current medications (e.g., insulin detemir, diltiazem, levothyroxine).
+Actionable Outcomes: Focus on specific steps the patient can take, including treatment adjustments, follow-ups, and lifestyle changes.
+Patient-Friendly Language: Use 6th-grade reading level and patient-friendly terms.
+Consistency: Maintain the sequence of lab tests as provided in the clinical data.
+Time-Efficient: Limit to 20 questions to fit into a 15-minute discussion with the clinician.
+Patient's Profile and Clinical Data:
+{[insert clinical profile]}
+Output:
+Generate only the questions in plain text without extra context or numbering. Each question should:
+Explicitly state abnormal lab values.
+Mention the patient’s diseases (e.g., Type 2 diabetes, kidney disease, peripheral vascular disease, hyperlipidemia).
+Include relevant medications (e.g., insulin detemir, levothyroxine).
+Focus on proactive actions the patient can take, such as adjusting medications or following up with specific tests.
+The goal is to support informed discussions during the clinical visit by focusing on urgent and actionable health issues.
+Focus on generating questions that address abnormal lab results, considering reference ranges, recent medications, and diagnostic information. 
+Questions should emphasize actionable management steps, treatment adjustments, proactive health measures, and specific follow-up recommendations. 
+The aim is to support patient-centered care and facilitate an informed discussion during the clinical visit.
 
