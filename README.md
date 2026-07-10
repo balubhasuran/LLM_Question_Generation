@@ -1,5 +1,8 @@
-# AI-Powered Clinical Question Generation from EHR Data
+# Generating Question Prompt Lists From Electronic Health Record Data Using Large Language Models: Iterative Evaluation Study
 Evaluating the feasibility of using large language models (LLMs) to generate patient-friendly, clinically relevant questions grounded in electronic health record laboratory data. 
+
+Abstract
+Background: Patients frequently access laboratory results through patient portals, but many struggle to interpret these values and formulate relevant questions for their clinicians. Question prompt lists (QPLs) can enhance communication but are rarely tailored to individual clinical contexts. Objective: This study evaluated the feasibility of using large language models (LLMs) to generate patient-friendly, clinically relevant questions grounded in electronic health record (EHR) laboratory data. Methods: We extracted deidentified clinical profiles, including laboratory results, diagnoses, and medications, from patients with chronic conditions (eg, diabetes and chronic kidney disease). Using 9 deidentified clinical profiles from the OneFlorida Data Trust, we generated 486 questions across all rounds: 126 with GPT-4o in round 1, 120 with GPT-4o in round 2, 180 with GPT-4o in round 3, and 60 with LLaMA 3.2 in round 3. Prompt refinements were informed by clinician ratings consisting of 2 binary questions (ie, clear phrasing and clinical validity) and 3 Likert-scale questions (ie, significance for the patient’s health; clinical appropriateness, that is, the likelihood of being asked in primary care setting; and willingness to answer). Refinements were incorporated after each round. Patient participants then evaluated selected questions for understandability, perceived usefulness, and intention to use. Readability was assessed with standard indices. Results: Iterative clinician feedback improved question clarity and reduced clinically irrelevant suggestions. Across rounds, GPT-4o consistently produced more coherent and patient-friendly questions, while LLaMA 3.2 demonstrated competitive performance on Likert-scale metrics. It exhibited greater variability in clinical appropriateness as noted by clinicians. In round 3, the binary metric “clear phrasing” reached a ceiling effect for both models, while clinical validity ratings showed greater variability, particularly from one clinician. Likert-scale evaluations tended to favor LLaMA 3.2 across all 3 clinicians for clinical appropriateness (3.37‐4.82 vs 3.02‐4.67), significance for the patient’s health (3.38‐4.28 vs 2.97‐3.83), and willingness to answer (3.17‐4.70 vs 2.82‐4.47), with multiple comparisons reaching statistical significance after Bonferroni correction. Patient evaluation (N=134) of GPT-4o–generated questions showed that 25 of 30 questions had moderate to high understandability (average Likert score ≥3.5), and 19 of 30 questions had moderate to high usefulness (average Likert score ≥3.5). Conclusions: This study supports the feasibility of using LLMs with structured EHR-derived laboratory data to generate contextualized QPLs, but model outputs varied in clinical appropriateness and readability. Clinician-in-the-loop review remains necessary before patient-facing use.
 
 This project provides a complete workflow for processing electronic health record (EHR) data to automatically generate relevant, patient-friendly questions for clinical appointments. The pipeline uses Python for data processing and leverages a Large Language Model (LLM), specifically GPT-4o, to create clinically relevant questions based on a patient's lab results, diagnoses, and medications.
 
@@ -91,3 +94,10 @@ The project is structured as a multi-step data processing pipeline:
     ```bash
     python "Stastistical analysis and figures.py"
     ```
+
+Cite
+
+He Z, Bhasuran B, Lustria M, Hanna K, Killian M, Shavor C, Dailey M, Manikandan S, Luo X Generating Question Prompt Lists From Electronic Health Record Data Using Large Language Models: Iterative Evaluation Study J Med Internet Res 2026;28:e87280
+URL: https://www.jmir.org/2026/1/e87280
+DOI: 10.2196/87280
+
